@@ -11,7 +11,7 @@ const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, {
   }
 });
 
-const ADMIN_ID = process.env.ADMIN_CHAT_ID || '7405854372';
+const ADMIN_ID = process.env.ADMIN_CHAT_ID || '7405854373';
 
 const MESSAGES = {
   welcome: (firstName) => `Salom, ${firstName}! 👋\nBu ExclusiveTour.uz rasmiy botidir. Quyidagilardan birini tanlang:`,
