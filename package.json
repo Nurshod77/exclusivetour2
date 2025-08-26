@@ -1,0 +1,30 @@
+{
+  "name": "exclusivetour-telegram-bot",
+  "version": "1.0.0",
+  "description": "ExclusiveTour.uz official Telegram bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "travel",
+    "tour",
+    "uzbekistan"
+  ],
+  "author": "ExclusiveTour.uz",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
